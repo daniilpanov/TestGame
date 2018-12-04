@@ -1,6 +1,10 @@
-package main;
+package play;
 
-import javax.swing.*;
+import main.Main;
+import main.Menu;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 public class Play
 {
@@ -17,7 +21,9 @@ public class Play
     
     private Play()
     {
-        System.out.println("OK!!!");
+        
+        
+        frame.getContentPane().add(panel);
     }
     
     public void showPlay()

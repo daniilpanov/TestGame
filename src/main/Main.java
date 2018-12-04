@@ -3,7 +3,7 @@ package main;
 import javax.swing.*;
 import java.awt.*;
 
-class Main
+public class Main
 {
     public static JFrame frame = new JFrame("TestGame");
     

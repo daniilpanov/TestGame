@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class ImgLib
 {
-    private static final String PATH = "res/img/";
+    private static final String PATH = "src/res/img/";
     public static Image
             bullet = getImage("bullet");
             
